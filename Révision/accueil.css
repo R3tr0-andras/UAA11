@@ -1,0 +1,72 @@
+body {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+/* Header */
+.header-color {
+    background-color: burlywood;
+    
+}
+
+/* bu */
+
+.UwU {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.custom-btn {
+    width: 130px;
+    height: 50px;
+    color: #fff;
+    padding: 10px 25px;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+  }
+
+  /* btn 2 */
+
+.btn {
+    color: brown;
+    background: linear-gradient(0deg, burlywood 0%, burlywood 100%);
+    border: none;
+    color: brown;
+    
+  }
+  .btn:before {
+    height: 0%;
+    width: 2px;
+  }
+  .btn:hover {
+    background: antiquewhite;
+    box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
+                -4px -4px 6px 0 rgba(116, 125, 136, .5), 
+      inset -4px -4px 6px 0 rgba(255,255,255,.2),
+      inset 4px 4px 6px 0 rgba(0, 0, 0, .4);
+  }
+
+/* Main */
+
+.main-color {
+    background-color: antiquewhite;
+}
+
+
+
+/* Title */
+
+.title {
+  font-size: 1.5em;
+  text-decoration: underline;
+  color: brown;
+}
+.bold {
+  font-weight: bold;
+}
